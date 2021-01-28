@@ -1,0 +1,31 @@
+table {
+	margin: auto;
+	margin-bottom: 35px;
+	text-align: center;
+	width: 100%;
+	border-collapse:collapse;
+		tbody tr {
+					height: 50px;
+				}
+	}
+	
+table tbody tr {
+	height: 50px;
+}
+
+table tbody tr:hover {
+	background-color: #BFBFBF;
+}
+
+table thead tr {
+	height: 30px;
+
+}
+
+.odd {
+	background-color: #F2F2F2;
+}
+
+.even {
+	background-color: #D9D9D9;
+}

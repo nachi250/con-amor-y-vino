@@ -1,0 +1,47 @@
+.formulario {
+	width: 100;
+	border: 1px solid #ccc;
+	padding: 5%;
+}
+
+label {
+	font-size: 12px;
+	display:block;
+}
+
+input {
+	width: 100%;
+	border: solid 1px #ccc;
+	height: 35px;
+	display: block;
+	margin-bottom: 20px;
+}
+
+textarea {
+	border: solid 1px #ccc;
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+select {
+	display: block;
+	margin-bottom: 20px;
+}
+.enviar, .limpiar_datos {
+	margin: 5px;
+	width: 100%;
+	height: 35px;
+	margin-bottom: 15px;
+}
+
+.checkbox {
+	display: inline;
+	width: 15px;
+	height: 15px; 
+}
+
+.desea_suscribirse {
+	font-size: 15px;
+	color: #332F2C;
+	display: inline;
+}

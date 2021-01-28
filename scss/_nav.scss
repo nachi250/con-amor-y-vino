@@ -1,0 +1,30 @@
+nav {
+	background-color: white;
+	width: 100%;
+	margin-bottom: 15px;
+	height: 50px;
+	top: 0px;
+	border-bottom: solid 1px #BFBFBF;
+	height: auto;
+		
+		ul {
+			list-style: none;
+				li a {
+					text-decoration: none;
+					color: #BFBFBF;
+					text-transform: uppercase;
+					font-size: 1rem;						
+					}
+
+			}
+
+	}
+
+.nav_section:hover {
+		color: black;
+		}
+
+#home, #vinos, #nosotros, #informacion, #galeria, #contacto {
+
+	color: black;
+}
