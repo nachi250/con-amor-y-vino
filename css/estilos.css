@@ -41,6 +41,7 @@ svg {
   color: black; }
 
 .header_logo_background {
+  height: 10px;
   background-image: url(../assets/images/header_logo_background.jpg);
   width: 100%;
   margin: auto;
