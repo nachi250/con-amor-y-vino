@@ -2,6 +2,10 @@
   margin: 0;
   padding: 0; }
 
+.index_background {
+  background-image: url(../assets/images/foto_portada.jpg);
+  height: 600px; }
+
 h2 {
   margin-bottom: 25px; }
 
@@ -38,7 +42,14 @@ div div p a:hover {
   color: #BFBFBF; }
 
 svg {
+  color: #BFBFBF; }
+
+svg:hover {
   color: black; }
+
+.nosotros_texto {
+  margin: 35px;
+  width: 60%; }
 
 .header_logo_background {
   height: 10px;
