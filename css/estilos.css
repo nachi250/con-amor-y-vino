@@ -2,10 +2,6 @@
   margin: 0;
   padding: 0; }
 
-.index_background {
-  background-image: url(../assets/images/foto_portada.jpg);
-  height: 600px; }
-
 h2 {
   margin-bottom: 25px; }
 
@@ -46,10 +42,6 @@ svg {
 
 svg:hover {
   color: black; }
-
-.nosotros_texto {
-  margin: 35px;
-  width: 60%; }
 
 .header_logo_background {
   height: 10px;
@@ -170,8 +162,35 @@ footer {
   color: #BFBFBF;
   margin-top: 16px;
   clear: both;
-  border-top: solid 1px #BFBFBF; }
+  background-color: #BFBFBF; }
   footer p {
     margin-top: 10px;
     margin: 10px;
-    font-family: "arial", sans-serif, sans; }
+    font-family: "arial", sans-serif, sans;
+    color: white; }
+
+footer a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase; }
+
+footer h5 {
+  color: white; }
+
+footer svg {
+  color: white; }
+
+footer div {
+  margin-top: 25px; }
+
+.nosotros_background {
+  background-image: url(../assets/images/nosotros_background.jpg);
+  height: 600px;
+  width: auto; }
+
+.nosotros_titulo {
+  margin-top: 60%;
+  text-align: center; }
+
+.nosotros_texto {
+  text-align: center; }
