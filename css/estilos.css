@@ -30,9 +30,6 @@ div div p a:hover {
   border-bottom: solid 1px #BFBFBF;
   color: black; }
 
-#portada_img_opacity {
-  opacity: 0.75; }
-
 #envios {
   font-size: 2rem;
   color: #BFBFBF; }
@@ -42,6 +39,14 @@ svg {
 
 svg:hover {
   color: black; }
+
+#index_btn:hover {
+  transform: scale(1.1, 1.1); }
+
+.informacion_background {
+  background-image: url(../assets/images/informacion_background.jpg);
+  height: 600px;
+  width: auto; }
 
 .header_logo_background {
   height: 10px;
@@ -94,6 +99,20 @@ table tbody tr:hover {
 
 table thead tr {
   height: 30px; }
+
+.vinos_background {
+  background-image: url(../assets/images/vinos_background.jpg);
+  height: 600px;
+  width: auto; }
+
+.vinos_titulo {
+  margin-top: 60%;
+  text-align: center;
+  font-family: arial, sans-serif;
+  font-weight: bolder;
+  color: white;
+  background-color: #8e2802;
+  transform: skewy(-5deg); }
 
 .foto {
   background-color: white;
@@ -165,7 +184,6 @@ footer {
   background-color: #BFBFBF; }
   footer p {
     margin-top: 10px;
-    margin: 10px;
     font-family: "arial", sans-serif, sans;
     color: white; }
 
@@ -174,11 +192,22 @@ footer a {
   color: white;
   text-transform: uppercase; }
 
+footer ul {
+  margin-left: 38%; }
+
+footer ul li {
+  text-align: left; }
+
 footer h5 {
-  color: white; }
+  color: white;
+  font-size: 1rem; }
 
 footer svg {
   color: white; }
+
+footer p {
+  text-align: left;
+  margin-left: 30%; }
 
 footer div {
   margin-top: 25px; }
@@ -190,7 +219,13 @@ footer div {
 
 .nosotros_titulo {
   margin-top: 60%;
-  text-align: center; }
+  text-align: center;
+  font-family: arial, sans-serif;
+  font-weight: bolder;
+  color: white;
+  background-color: #ffae38;
+  padding: 2%;
+  transform: skewX(-20deg); }
 
 .nosotros_texto {
   text-align: center; }

@@ -39,10 +39,6 @@ div div p a:hover {
 	color: black;
 }
 
-#portada_img_opacity {
-	opacity: 0.75;
-}
-
 #envios {
 	font-size: 2rem;
 	color: #BFBFBF;
@@ -54,4 +50,14 @@ svg {
 
 svg:hover {
 	color: black;
+}
+
+#index_btn:hover {
+	transform: scale(1.1,1.1);
+}
+
+.informacion_background {
+	background-image: url(../assets/images/informacion_background.jpg);
+	height: 600px;
+	width: auto;
 }
