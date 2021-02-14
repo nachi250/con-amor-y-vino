@@ -73,7 +73,7 @@ nav {
       font-size: 1rem; }
 
 #navbarNav {
-  margin-left: 25%; }
+  margin-left: 20%; }
 
 .nav_section:hover {
   color: black; }
@@ -200,18 +200,18 @@ footer a {
   color: white; }
 
 footer ul {
-  margin-left: 35%; }
+  margin-left: 10%; }
   footer ul li {
     text-align: left;
     text-transform: uppercase; }
 
 footer h5 {
-  margin-left: 35%;
+  margin-left: 10%;
   color: white;
   font-size: 1rem; }
 
 footer svg {
-  margin-left: 35%;
+  margin-left: 10%;
   color: white; }
 
 footer div {
@@ -219,13 +219,13 @@ footer div {
 
 .footer_terminos {
   width: 100%;
-  max-width: 55%;
   background-color: white; }
   .footer_terminos p {
     font-family: "arial", sans-serif;
     font-size: 0.9rem;
-    text-align: left;
+    text-align: center;
     color: #BFBFBF;
-    margin-left: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
     margin-top: 1%;
     margin-bottom: 1%; }
