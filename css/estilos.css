@@ -16,10 +16,6 @@ body {
   width: 100%;
   margin: auto; }
 
-section {
-  width: 90%;
-  margin: auto; }
-
 div div p a {
   text-decoration: none;
   color: black;
@@ -43,6 +39,10 @@ svg:hover {
 
 #index_btn:hover {
   transform: scale(1.1, 1.1); }
+
+.img-fluid {
+  max-width: 100%;
+  height: auto; }
 
 .header_logo_background {
   height: 35px;
@@ -81,7 +81,7 @@ nav {
 #home, #vinos, #nosotros, #informacion, #contacto {
   color: black; }
 
-/* estilos de tabla (removida)
+/* estilos de tabla (tabla removida)
 
 table {
 	margin: auto;
